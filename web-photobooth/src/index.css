@@ -11,3 +11,62 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/*----- css body -----*/
+.container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+}
+.gradient {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(45deg,#5680E9, #84CEEB, #5AB9EA, #C1C8E4, #8860D0);
+  background-size: 300% 300%;
+  animation: colors 15s ease infinite;
+}
+
+@keyframes colors {
+  0%{
+    background-position: 0% 50%;
+  }
+
+  50%{
+    background-position: 100% 50%;
+  }
+
+  100%{
+    background-position: 0% 50%;
+  }
+
+}
+
+.container2{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.title{
+  font-size: medium;
+
+}
+
+.subTitle{
+  font-size: small;
+
+}
+
+.divTitle{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
