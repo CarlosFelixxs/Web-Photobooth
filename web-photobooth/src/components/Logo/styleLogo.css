@@ -9,6 +9,7 @@
     width: 13vw;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
     align-items: center;
+    margin-bottom: 5%;
+
   }

@@ -19,7 +19,6 @@ code {
   height: 100vh;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
 
 }
 .gradient {
@@ -50,18 +49,8 @@ code {
 
 .container2{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   width: 100%;
-}
-
-.title{
-  font-size: medium;
-
-}
-
-.subTitle{
-  font-size: small;
-
 }
 
 .divTitle{
@@ -69,4 +58,16 @@ code {
   flex-direction: column;
   align-items: center;
   color: white;
+  font-family: nunito;
+
+}
+
+.title{
+  font-size: larger;
+
+}
+
+.subTitle{
+  font-size: medium;
+
 }

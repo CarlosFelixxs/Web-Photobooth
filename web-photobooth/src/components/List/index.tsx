@@ -16,13 +16,11 @@ function List() {
 
         <div className='list'>
             <aside>
-                <ul>
                     {benefit.map((item, index) => (
-                        <li key={index}>
+                        <ul key={index}>
                             <h3> {item.benefit}</h3>
-                        </li>
+                        </ul>
                     ))}
-                </ul>
             </aside>
         </div>
     )
