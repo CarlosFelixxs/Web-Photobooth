@@ -1,13 +1,11 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: linear-gradient(45deg, #5680E9, #84CEEB, #5AB9EA, #C1C8E4, #8860D0);
-  background-size: 300% 300%;
-  animation: colors 15s ease infinite;
+  background: linear-gradient(45deg, #5680E9, #84CEEB, #5AB9EA, #C1C8E4, #8860d0);
+  background-size: 1px 800px;
+  animation: colors 10s ease-in infinite;
 }
 
 code {
@@ -52,7 +50,7 @@ code {
   display: flex;
   justify-content: center;
   width: 100%;
-  margin-bottom: 3%;
+
 }
 
 .divTitle {
@@ -60,7 +58,7 @@ code {
   font-family: nunito;
 }
 
-.new{
+.new {
   height: 15vh;
   display: flex;
   align-items: center;
@@ -77,15 +75,15 @@ code {
 
 }
 
-#medalhaimg{
+#medalhaimg {
   width: 12%;
   height: 60%;
   margin-right: 5%;
 }
 
-#imagem1{
+#imagem1 {
   height: 100%;
-    width: 35%;
+  width: 35%;
 }
 
 .containerButton {
@@ -94,9 +92,10 @@ code {
   height: 20vh;
   justify-content: space-evenly;
   align-items: center;
+  padding-top: 2%;
 }
 
-a{
+a {
   box-shadow: 1px 2px 3px 2px #00000047;
   border-radius: 3px;
   text-align: center;
@@ -104,9 +103,438 @@ a{
   padding-bottom: 35px;
   padding-top: 35px;
   color: white;
+  border-style: solid;
+  border-top: 1px 0px 0px 0px red;
+  border-bottom-width: 0;
+  border-top-width: 4px;
+  border-right-width: 0;
+  border-left-width: 0;
+  border-color: #8860d0;
+  cursor: pointer;
+  transition: 1s;
 }
 
+a:before {
+  content: ' ';
+  bottom: 0;
+  left: 0;
+  width: 0;
+  background-color: #5680E9;
+  z-index: -1;
+  transition: 1s;
+}
 
-#textButton{
+a:hover {
+  background-color: #8860d0;
+}
 
+#findUs{
+
+}
+
+#fCont{
+display: none;
+}
+
+.continuacao{
+width: 100vw;
+min-height: 100vh ;
+display: none;
+
+}
+
+@media only screen and (max-width: 1200px) {}
+
+@media only screen and (max-width: 992px) {
+  .gradient {
+    display: block;
+  }
+
+  .container .divLogo .imFotoLogo {
+    width: auto;
+    height: auto;
+  }
+
+  .container2 .divTitle {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+  }
+
+  .container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+  }
+
+  .container2 .new {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  #medalhaimg {
+    width: auto;
+    height: 70px;
+  }
+
+  .title {
+    font-size: 22px;
+  }
+
+  .list {}
+
+  ul {
+    font-size: inherit;
+  }
+
+  #imagem1 {
+    order: -1;
+    width: auto;
+    height: 200px;
+  }
+
+  .containerButton {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 90%;
+  }
+
+  a {
+    width: auto;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .gradient {
+    display: block;
+  }
+
+  .container .divLogo .imFotoLogo {
+    width: auto;
+    height: auto;
+  }
+
+  .container2 .divTitle {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+  }
+
+  .container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+  }
+
+  .container2 .new {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  #medalhaimg {
+    width: auto;
+    height: 70px;
+  }
+
+  .title {
+    font-size: 22px;
+  }
+
+  .list {}
+
+  ul {
+    font-size: inherit;
+  }
+
+  #imagem1 {
+    order: -1;
+    width: auto;
+    height: 200px;
+  }
+
+  .containerButton {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 90%;
+  }
+
+  a {
+    width: auto;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+}
+
+@media only screen and (max-width: 630px) {
+
+  .gradient {
+    display: block;
+  }
+
+
+  .container .divLogo .imFotoLogo {
+    width: auto;
+    height: auto;
+  }
+
+  .container2 .divTitle {
+    width: 100%;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+  }
+
+  .container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+  }
+
+  .container2 .new {
+    width: 100%;
+  }
+
+  .new {
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #medalhaimg {
+    width: auto;
+    height: 70px;
+  }
+
+  .title {
+    font-size: 22px;
+  }
+
+  .list {
+    align-items: center;
+  }
+
+  ul {
+    font-size: inherit;
+  }
+
+  #imagem1 {
+    order: -1;
+    width: auto;
+  }
+
+  .containerButton {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 90%;
+  }
+
+  a {
+    width: auto;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .gradient {
+    display: block;
+    width: 100vw;
+  }
+
+
+  .container .divLogo .imFotoLogo {
+    width: auto;
+    height: auto;
+  }
+
+  .container2 .divTitle {
+    width: 100%;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+  }
+
+  .container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+  }
+
+  .container2 .new {
+    width: 100%;
+  }
+
+  .new {
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #medalhaimg {
+    width: auto;
+    height: 70px;
+  }
+
+  .title {
+    font-size: 18px;
+  }
+
+  .list {
+    align-items: center;
+  }
+
+  ul {
+    font-size: inherit;
+  }
+
+  #imagem1 {
+    order: -1;
+    width: auto;
+  }
+
+  .containerButton {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  a {
+    width: auto;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .gradient {
+    display: block;
+    width: 100vw;
+  }
+
+  .App {
+    display: block;
+    width: 100%;
+  }
+
+  .container .divLogo .imFotoLogo {
+    width: auto;
+    height: auto;
+  }
+
+  .container2 .divTitle {
+    width: 100%;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+  }
+
+  .container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+  }
+
+  .container2 .new {
+    width: 100%;
+  }
+
+  .new {
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #medalhaimg {
+    width: auto;
+    height: 70px;
+  }
+
+  .title {
+    font-size: 21px;
+  }
+
+  .list {
+    align-items: center;
+  }
+
+  ul {
+    font-size: inherit;
+  }
+
+  #imagem1 {
+    order: -1;
+    width: auto;
+  }
+
+  .containerButton {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    width: 90%;
+  }
+
+  a {
+    width: auto;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    padding-right: 3px;
+    padding-left: 3px;
+  }
 }

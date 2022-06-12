@@ -12,3 +12,9 @@
     align-items: center;
     margin-bottom: 2%;
   }
+  @media only screen and (min-width: 768px){
+    .container .divLogo .imFotoLogo{
+        width: auto;
+        height: auto;
+      }
+  }
