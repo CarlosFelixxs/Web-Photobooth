@@ -23,6 +23,7 @@ code {
 
 }
 
+
 @keyframes colors {
   0% {
     background-position: 0% 50%;
@@ -86,10 +87,10 @@ aside {
 .containerButton {
   display: flex;
   width: 100%;
-  height: 25%;
-  justify-content: space-evenly;
+  height: 23vh;
   align-items: center;
-  padding-top: 2%;
+  justify-content: space-evenly;
+  flex-direction: row;
 }
 
 .Button {
@@ -125,6 +126,24 @@ aside {
 
 .Button:hover {
   background-color: #8860d0;
+}
+
+#findUs a{
+color: white;
+display: flex;
+flex-direction: column;
+align-items: center;
+text-decoration: none;
+}
+
+#findUs a:hover{
+color: #8860d0;
+transition: 1s;
+}
+
+#imageNext{
+ height: 40%;
+ width: 60%;
 }
 
 
@@ -184,7 +203,7 @@ aside {
     font-size: inherit;
   }
 
-  #image1 {
+  #imagem1 {
     order: -1;
     width: auto;
     height: 200px;
@@ -254,16 +273,19 @@ aside {
     font-size: 22px;
   }
 
-  .list {}
+  .list {
+    font-size: 8px;
+  }
 
   ul {
     font-size: inherit;
   }
 
-  #image1 {
+  #imagem1 {
     order: -1;
     width: auto;
-    height: 200px;
+    height: 25vh;
+    padding-left: 3%;
   }
 
   .containerButton {
@@ -271,14 +293,11 @@ aside {
     flex-direction: row;
     align-items: center;
     width: 90%;
+    height: 17%;
   }
 
   .Button {
-    width: auto;
-    padding-bottom: 20px;
-    padding-top: 20px;
-    padding-right: 10px;
-    padding-left: 10px;
+    height: 5vh;
   }
 
 }
@@ -315,7 +334,9 @@ aside {
   }
 
   .container2 .new {
+    padding-top: 10px;
     width: 100%;
+    height: 26%;
   }
 
   .new {
@@ -335,27 +356,29 @@ aside {
   }
 
   .list {
-    align-items: center;
+    font-size: 8px;
   }
 
   ul {
     font-size: inherit;
   }
 
-  #image1 {
+  #imagem1 {
     order: -1;
     width: auto;
+    height: 25vh;
+    padding-left: 5%;
   }
 
   .containerButton {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 90%;
+    width: 100%;
+    height: 16%;
+    justify-content: space-evenly;
   }
 
   .Button {
-    width: auto;
+    height: 5vh;
   }
 }
 
@@ -418,17 +441,17 @@ aside {
     font-size: inherit;
   }
 
-  #image1 {
+  #imagem1 {
     order: -1;
     width: auto;
   }
 
   .containerButton {
     display: flex;
-    flex-direction: row;
-    align-items: center;
     width: 100%;
-    justify-content: space-between;
+    height: 15%;
+    justify-content: space-evenly;
+    align-items: center;
   }
 
   .Button {
@@ -446,10 +469,6 @@ aside {
     width: 100vw;
   }
 
-  .App {
-    display: block;
-    width: 100%;
-  }
 
   .container .divLogo .imFotoLogo {
     width: auto;
@@ -492,7 +511,7 @@ aside {
   }
 
   .title {
-    font-size: 21px;
+    font-size: 18px;
   }
 
   .list {
@@ -503,23 +522,24 @@ aside {
     font-size: inherit;
   }
 
-  #image1 {
+  #imagem1 {
     order: -1;
     width: auto;
   }
 
   .containerButton {
     display: flex;
-    flex-direction: row-reverse;
+    width: 100%;
+    height: 15%;
+    justify-content: space-evenly;
     align-items: center;
-    width: 90%;
   }
 
   .Button {
     width: auto;
-    padding-bottom: 3px;
-    padding-top: 3px;
-    padding-right: 3px;
-    padding-left: 3px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
   }
 }

@@ -6,6 +6,7 @@ import img from "../../img/work.png";
 import icon from "../../img/icon1.png";
 import "./styleHome.css"
 import ReactGa from "react-ga";
+import imgNext from "../../img/down1.png"
 
 function Home() {
 
@@ -53,7 +54,9 @@ function Home() {
           </div>
             
           <div id='findUs'>
-            <NavLink to="/LinkedinScreen">FIND US</NavLink>
+            <NavLink to="/LinkedinScreen">FIND US
+            <img id="imageNext" src={imgNext} alt="" />
+            </NavLink>
           </div>
         </div>
       </div>

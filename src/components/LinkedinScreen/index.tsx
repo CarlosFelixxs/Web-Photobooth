@@ -41,7 +41,7 @@ export default function LinkedinScreen() {
             <div className="info2">
               <img id='Akira' src={Akira} alt="software team" />
               <span className="textAkira">
-              <h3><b>Paulo Akira</b></h3>
+                <h3><b>Paulo Akira</b></h3>
                 Artificial Intelligence Lead<br />
                 Part of LS Brasil Labs
               </span>
@@ -49,6 +49,11 @@ export default function LinkedinScreen() {
             </div>
           </div>
         </div>
+          <div className="footer">
+            <div className="linha">
+          <span className="textFooter">2021-2022 Labs is part of Accenture's Liquid Studios Brasil </span>
+            </div>
+          </div>
       </div>
     </>
   )
