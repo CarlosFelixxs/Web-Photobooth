@@ -81,40 +81,43 @@ code {
   margin-right: 5%;
 }
 
-#imagem1 {
-  height: 100%;
-  width: 35%;
+#image1 {
+  margin-top: 30px;
+  height: 86%;
+  width: 30%;
 }
 
 .containerButton {
   display: flex;
-  width: 100%;
+  width: 65%;
   height: 20vh;
   justify-content: space-evenly;
   align-items: center;
   padding-top: 2%;
 }
 
-a {
+.containerButton a {
   box-shadow: 1px 2px 3px 2px #00000047;
   border-radius: 3px;
   text-align: center;
-  width: 12%;
-  padding-bottom: 35px;
-  padding-top: 35px;
+  width: 20%;
+  padding-bottom: 30px;
+  padding-top: 28px;
   color: white;
   border-style: solid;
   border-top: 1px 0px 0px 0px red;
   border-bottom-width: 0;
-  border-top-width: 4px;
+  border-top-width: 5px;
   border-right-width: 0;
   border-left-width: 0;
   border-color: #8860d0;
   cursor: pointer;
   transition: 1s;
+  text-decoration: none;
+
 }
 
-a:before {
+.containerButton a:before {
   content: ' ';
   bottom: 0;
   left: 0;
@@ -124,22 +127,45 @@ a:before {
   transition: 1s;
 }
 
-a:hover {
+.containerButton a:hover {
   background-color: #8860d0;
 }
 
-#findUs{
+
+
+#findUs a {
+  font-size: large;
+  color: white;
+  text-decoration: none;
 
 }
 
-#fCont{
+#findUs a:hover {
+  color: #8860d0;
+  transition: 1s;
+}
+
+#findUs a {
+  height: 150%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-end;
 
 }
 
-.continuacao{
-width: 100vw;
-min-height: 100vh ;
-display: none;
+#imageNext {
+  height: 40%;
+  width: 70%;
+  cursor: pointer;
+}
+
+#fCont {}
+
+.continuation {
+  width: 100vw;
+  min-height: 100vh;
+  display: none;
 
 }
 
@@ -199,7 +225,7 @@ display: none;
     font-size: inherit;
   }
 
-  #imagem1 {
+  #image1 {
     order: -1;
     width: auto;
     height: 200px;
@@ -275,7 +301,7 @@ display: none;
     font-size: inherit;
   }
 
-  #imagem1 {
+  #image1 {
     order: -1;
     width: auto;
     height: 200px;
@@ -357,7 +383,7 @@ display: none;
     font-size: inherit;
   }
 
-  #imagem1 {
+  #image1 {
     order: -1;
     width: auto;
   }
@@ -433,7 +459,7 @@ display: none;
     font-size: inherit;
   }
 
-  #imagem1 {
+  #image1 {
     order: -1;
     width: auto;
   }
@@ -518,7 +544,7 @@ display: none;
     font-size: inherit;
   }
 
-  #imagem1 {
+  #image1 {
     order: -1;
     width: auto;
   }
