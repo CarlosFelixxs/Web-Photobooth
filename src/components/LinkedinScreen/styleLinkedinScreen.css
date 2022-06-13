@@ -1,5 +1,123 @@
-.parede{
-    background-color: aqua;
-    width: 100vw;
-    height: 100vh;
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(45deg, #5680E9, #84CEEB, #5AB9EA, #C1C8E4, #8860d0);
+    background-size: 300% 300%;
+    animation: colors 10s ease-in infinite;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}
+
+/*----- css body -----*/
+
+
+.firstContainer {
+    display: flex;
+    width: 100%;
+    height: 95%;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.firstContainer .backButton {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 980px;
+    margin: auto;
+}
+
+.containerInfos {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#findUs {}
+
+.infos {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.infos .info1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 112%;
+    padding-left: 100px;
+}
+
+.infos .info2 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    padding-right: 100px;
+}
+
+.infos #Akira {
+    width:68%;
+    max-width: 980px;
+}
+
+.textAkira {
+    color: white;
+    display: flex;
+    padding-left: 40px;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.infos #Marcelo {
+    width: 45%;
+    max-width: 980px;
+}
+
+.textMarcelo {
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+h3{
+    height: 5px;
+}
+
+.containerLinks {}
+
+#aLinkedinImgMarcelo {
+    width: 85%;
+    height: 15%;
+    cursor: pointer;
+}
+#linkedinImgMarcelo {
+    width: 15%;
+    height: 15%;
+    cursor: pointer;
+}
+
+#aLinkedinImgAkira {
+    width: 100%;
+    height: 15%;
+    cursor: pointer;
+}
+#linkedinImgAkira {
+    width: 15%;
+    height: 15%;
+    padding-left: 36px;
+    cursor: pointer;
 }

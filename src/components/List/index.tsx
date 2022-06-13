@@ -18,7 +18,7 @@ function List() {
             <aside>
                     {benefit.map((item, index) => (
                         <ul key={index}>
-                            <h3> {item.benefit}</h3>
+                            <h2> {item.benefit}</h2>
                         </ul>
                     ))}
             </aside>
