@@ -76,8 +76,13 @@ aside {
   margin-right: 5%;
 }
 
+<<<<<<< HEAD
 #imagem1 {
   height: 85%;
+=======
+#image1 {
+  height: 100%;
+>>>>>>> a5fb4d2220e81c3934d161233901bd657abd8ff9
   width: 35%;
   padding-top: 1%;
 }
@@ -184,7 +189,7 @@ aside {
     font-size: inherit;
   }
 
-  #imagem1 {
+  #image1 {
     order: -1;
     width: auto;
     height: 200px;
@@ -260,7 +265,7 @@ aside {
     font-size: inherit;
   }
 
-  #imagem1 {
+  #image1 {
     order: -1;
     width: auto;
     height: 200px;
@@ -342,7 +347,7 @@ aside {
     font-size: inherit;
   }
 
-  #imagem1 {
+  #image1 {
     order: -1;
     width: auto;
   }
@@ -418,7 +423,7 @@ aside {
     font-size: inherit;
   }
 
-  #imagem1 {
+  #image1 {
     order: -1;
     width: auto;
   }
@@ -503,7 +508,7 @@ aside {
     font-size: inherit;
   }
 
-  #imagem1 {
+  #image1 {
     order: -1;
     width: auto;
   }
