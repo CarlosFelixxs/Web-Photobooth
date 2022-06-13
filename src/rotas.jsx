@@ -2,7 +2,7 @@ import React from "react";
 
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import home from "./pages/App";
+import Home from "./component/Home";
 
 function Rotas() {
     return (
@@ -10,7 +10,7 @@ function Rotas() {
             <BrowserRouter>
 
             <Routes>
-                <Route path="/" element={<home />}/>
+                <Route path="/" element={<Home />}/>
             </Routes>
 
             </BrowserRouter>
