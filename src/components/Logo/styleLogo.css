@@ -1,7 +1,7 @@
 .container .imgFotoLogo {
   width: 100%;
   height: 100%;
-  background-size: 95%;
+  background-size: 75%;
 }
 
 .container .divLogo {
@@ -13,6 +13,12 @@
 }
 
 @media only screen and (max-width: 768px) {
+
+  .container .imgFotoLogo {
+    width: 100%;
+    height: 100%;
+    background-size: 75%;
+  }
   .container .divLogo {
     height: 8vh;
     width: 16vw;
@@ -23,6 +29,12 @@
 }
 
 @media only screen and (max-width: 630px) {
+
+  .container .imgFotoLogo {
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+  }
   .container .divLogo {
     height: 12vh;
     width: 20vw;
@@ -30,9 +42,16 @@
     flex-direction: row;
     align-items: center;
   }
+
 }
 
 @media only screen and (max-width: 540px) {
+
+  .container .imgFotoLogo {
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+  }
   .container .divLogo {
     height: 15vw;
     width: 27vw;
@@ -44,6 +63,12 @@
 }
 
 @media only screen and (max-width: 320px) {
+  .container .imgFotoLogo {
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+  }
+
   .container .divLogo {
     height: 10vh;
     width: 40vw;

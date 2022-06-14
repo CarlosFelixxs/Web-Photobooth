@@ -167,13 +167,19 @@ aside {
     align-items: center;
   }
 
+  aside{
+    display: grid;
+    font-size: 13px;
+  }
+
   .container {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 90%;
     margin: auto;
-    justify-content: center;
+    height: 100vh;
+    justify-content: space-evenly;
   }
 
   .container2 {
@@ -191,13 +197,17 @@ aside {
 
   #medalhaimg {
     width: auto;
-    height: 70px;
+    height: 120px;
   }
 
 
   .list {
     font-size: 0.5rem;
   }
+
+  .title {
+    font-size: 2.8rem;
+}
 
   ul {
     font-size: inherit;
@@ -217,11 +227,8 @@ aside {
   }
 
   .Button {
-    width: auto;
-    padding-bottom: 20px;
-    padding-top: 20px;
-    padding-right: 10px;
-    padding-left: 10px;
+    width: 25%;
+    height: 130px;
   }
 }
 
@@ -249,7 +256,11 @@ aside {
     align-items: center;
     width: 90%;
     margin: auto;
-    justify-content: center;
+    justify-content: space-evenly;
+  }
+
+  aside{
+    font-size: 11px;
   }
 
   .container2 {
@@ -267,11 +278,11 @@ aside {
 
   #medalhaimg {
     width: auto;
-    height: 70px;
+    height: 110px;
   }
 
   .title {
-    font-size: 22px;
+    font-size: 40px;
   }
 
   .list {
@@ -299,6 +310,7 @@ aside {
 
   .Button {
     height: 5vh;
+    height: 100px;
   }
 
 }
@@ -325,7 +337,11 @@ aside {
     align-items: center;
     width: 90%;
     margin: auto;
-    justify-content: center;
+    justify-content: space-evenly;
+  }
+
+  aside{
+    font-size: 10px;
   }
 
   .container2 {
@@ -380,7 +396,7 @@ aside {
   }
 
   .Button {
-    height: 5vh;
+    height: 90px;
   }
 }
 
@@ -406,7 +422,11 @@ aside {
     align-items: center;
     width: 90%;
     margin: auto;
-    justify-content: center;
+    justify-content: space-evenly;
+  }
+
+  aside{
+    font-size: 7px;
   }
 
   .container2 {
@@ -433,7 +453,7 @@ aside {
   }
 
   .title {
-    font-size: 18px;
+    font-size: 17px;
   }
 
   .list {
@@ -447,6 +467,7 @@ aside {
   #imagem1 {
     order: -1;
     width: auto;
+    height: 140px;
   }
 
   .containerButton {
@@ -459,10 +480,12 @@ aside {
 
   .Button {
     width: auto;
-    padding-bottom: 5px;
-    padding-top: 5px;
-    padding-right: 5px;
-    padding-left: 5px;
+    height: 5vh;
+    font-size: 12px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
   }
 }
 
@@ -488,8 +511,12 @@ aside {
     align-items: center;
     width: 90%;
     margin: auto;
-    justify-content: center;
+    justify-content: space-evenly;
   }
+
+aside{
+
+}
 
   .container2 {
     display: flex;
