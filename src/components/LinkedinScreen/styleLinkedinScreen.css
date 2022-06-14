@@ -69,7 +69,7 @@ code {
 }
 
 .infos #Akira {
-    width:68%;
+    width: 68%;
     max-width: 980px;
 }
 
@@ -95,7 +95,7 @@ code {
     text-align: center;
 }
 
-h3{
+h3 {
     height: 5px;
 }
 
@@ -106,6 +106,7 @@ h3{
     height: 15%;
     cursor: pointer;
 }
+
 #linkedinImgMarcelo {
     width: 15%;
     height: 15%;
@@ -117,6 +118,7 @@ h3{
     height: 15%;
     cursor: pointer;
 }
+
 #linkedinImgAkira {
     width: 15%;
     height: 15%;
@@ -124,29 +126,29 @@ h3{
     cursor: pointer;
 }
 
-.footer{
+.footer {
     display: flex;
     width: 90%;
 }
 
-.footer .linha{
+.footer .linha {
     color: white;
 }
 
-.textFooter{
-font-size: 10px;
+.textFooter {
+    font-size: 10px;
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 992px){
     .firstContainer {
         display: flex;
         width: 100%;
         height: 95%;
         align-items: center;
         flex-direction: column;
-    
+
     }
-    
+
     .firstContainer .backButton {
         display: flex;
         justify-content: center;
@@ -154,7 +156,7 @@ font-size: 10px;
         max-width: 980px;
         margin: auto;
     }
-    
+
     .containerInfos {
         width: 90%;
         height: 100%;
@@ -163,10 +165,10 @@ font-size: 10px;
         justify-content: center;
         border-bottom: groove;
     }
-    
-    
+
+
     #findUs {}
-    
+
     .infos {
         display: flex;
         width: 100%;
@@ -174,7 +176,7 @@ font-size: 10px;
         justify-content: center;
         align-items: center;
     }
-    
+
     .infos .info1 {
         display: flex;
         flex-direction: column;
@@ -182,7 +184,7 @@ font-size: 10px;
         width: 112%;
         padding-left: 100px;
     }
-    
+
     .infos .info2 {
         display: flex;
         align-items: center;
@@ -191,12 +193,12 @@ font-size: 10px;
         flex-direction: column;
         padding-right: 100px;
     }
-    
+
     .infos #Akira {
         width: 127%;
         max-width: 980px;
     }
-    
+
     .textAkira {
         color: white;
         display: flex;
@@ -206,12 +208,12 @@ font-size: 10px;
         text-align: center;
         width: 100%;
     }
-    
+
     .infos #Marcelo {
         width: 80%;
         max-width: 980px;
     }
-    
+
     .textMarcelo {
         color: white;
         display: flex;
@@ -219,13 +221,13 @@ font-size: 10px;
         flex-direction: column;
         text-align: center;
     }
-    
-    h3{
+
+    h3 {
         height: 5px;
     }
-    
+
     .containerLinks {}
-    
+
     #aLinkedinImgMarcelo {
         width: 85%;
         height: 15%;
@@ -237,41 +239,41 @@ font-size: 10px;
         height: 15%;
         cursor: pointer;
     }
-    
+
     #aLinkedinImgAkira {
         width: 140%;
     }
 
     #linkedinImgAkira {
-    width: 24%;
-    padding-right: 25px;
-    cursor: pointer;
+        width: 24%;
+        padding-right: 25px;
+        cursor: pointer;
     }
-    
-    .footer{
+
+    .footer {
         display: flex;
         width: 90%;
     }
-    
-    .footer .linha{
+
+    .footer .linha {
         color: white;
     }
-    
-    .textFooter{
-    font-size: 10px;
+
+    .textFooter {
+        font-size: 10px;
     }
 }
 
-@media only screen and (max-width: 630px){
+@media only screen and (max-width: 768px) {
     .firstContainer {
         display: flex;
         width: 100%;
         height: 95%;
         align-items: center;
         flex-direction: column;
-    
+
     }
-    
+
     .firstContainer .backButton {
         display: flex;
         justify-content: center;
@@ -279,7 +281,7 @@ font-size: 10px;
         max-width: 980px;
         margin: auto;
     }
-    
+
     .containerInfos {
         width: 90%;
         height: 100%;
@@ -288,10 +290,10 @@ font-size: 10px;
         justify-content: center;
         border-bottom: groove;
     }
-    
-    
+
+
     #findUs {}
-    
+
     .infos {
         display: flex;
         width: 100%;
@@ -299,7 +301,132 @@ font-size: 10px;
         justify-content: center;
         align-items: center;
     }
-    
+
+    .infos .info1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 112%;
+        padding-left: 100px;
+    }
+
+    .infos .info2 {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: center;
+        flex-direction: column;
+        padding-right: 100px;
+    }
+
+    .infos #Akira {
+        width: 127%;
+        max-width: 980px;
+    }
+
+    .textAkira {
+        color: white;
+        display: flex;
+        padding-left: 40px;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+
+    .infos #Marcelo {
+        width: 80%;
+        max-width: 980px;
+    }
+
+    .textMarcelo {
+        color: white;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    h3 {
+        height: 5px;
+    }
+
+    .containerLinks {}
+
+    #aLinkedinImgMarcelo {
+        width: 85%;
+        height: 15%;
+        cursor: pointer;
+    }
+
+    #linkedinImgMarcelo {
+        width: 36%;
+        height: 15%;
+        cursor: pointer;
+    }
+
+    #aLinkedinImgAkira {
+        width: 140%;
+    }
+
+    #linkedinImgAkira {
+        width: 24%;
+        padding-right: 25px;
+        cursor: pointer;
+    }
+
+    .footer {
+        display: flex;
+        width: 90%;
+    }
+
+    .footer .linha {
+        color: white;
+    }
+
+    .textFooter {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 630px) {
+    .firstContainer {
+        display: flex;
+        width: 100%;
+        height: 95%;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    .firstContainer .backButton {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        max-width: 980px;
+        margin: auto;
+    }
+
+    .containerInfos {
+        width: 90%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-bottom: groove;
+    }
+
+
+    #findUs {}
+
+    .infos {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
     .infos .info1 {
         display: flex;
         flex-direction: column;
@@ -307,7 +434,7 @@ font-size: 10px;
         width: 112%;
         padding-left: 60px;
     }
-    
+
     .infos .info2 {
         display: flex;
         align-items: center;
@@ -316,12 +443,12 @@ font-size: 10px;
         flex-direction: column;
         padding-right: 60px;
     }
-    
+
     .infos #Akira {
         width: 127%;
         max-width: 980px;
     }
-    
+
     .textAkira {
         color: white;
         display: flex;
@@ -331,12 +458,12 @@ font-size: 10px;
         text-align: center;
         width: 100%;
     }
-    
+
     .infos #Marcelo {
         width: 80%;
         max-width: 980px;
     }
-    
+
     .textMarcelo {
         color: white;
         display: flex;
@@ -344,13 +471,13 @@ font-size: 10px;
         flex-direction: column;
         text-align: center;
     }
-    
-    h3{
+
+    h3 {
         height: 5px;
     }
-    
+
     .containerLinks {}
-    
+
     #aLinkedinImgMarcelo {
         width: 85%;
         height: 15%;
@@ -362,41 +489,41 @@ font-size: 10px;
         height: 15%;
         cursor: pointer;
     }
-    
+
     #aLinkedinImgAkira {
         width: 140%;
     }
 
     #linkedinImgAkira {
-    width: 24%;
-    padding-right: 25px;
-    cursor: pointer;
+        width: 24%;
+        padding-right: 25px;
+        cursor: pointer;
     }
-    
-    .footer{
+
+    .footer {
         display: flex;
         width: 90%;
     }
-    
-    .footer .linha{
+
+    .footer .linha {
         color: white;
     }
-    
-    .textFooter{
-    font-size: 12px;
+
+    .textFooter {
+        font-size: 12px;
     }
 }
 
-@media only screen and (max-width: 540px){
+@media only screen and (max-width: 540px) {
     .firstContainer {
         display: flex;
         width: 100%;
         height: 95%;
         align-items: center;
         flex-direction: column;
-    
+
     }
-    
+
     .firstContainer .backButton {
         display: flex;
         justify-content: center;
@@ -404,19 +531,19 @@ font-size: 10px;
         max-width: 980px;
         margin: auto;
     }
-    
+
     .containerInfos {
-        width: 90%;
-        height: 100%;
+        width: 75%;
+        height: 730px;
         display: flex;
         align-items: center;
         justify-content: center;
         border-bottom: groove;
     }
-    
-    
+
+
     #findUs {}
-    
+
     .infos {
         display: flex;
         width: 50%;
@@ -425,7 +552,7 @@ font-size: 10px;
         align-items: center;
         flex-direction: column;
     }
-    
+
     .infos .info1 {
         display: flex;
         flex-direction: column;
@@ -433,7 +560,7 @@ font-size: 10px;
         width: 112%;
         padding-left: 31px;
     }
-    
+
     .infos .info2 {
         display: flex;
         align-items: center;
@@ -442,12 +569,13 @@ font-size: 10px;
         flex-direction: column;
         padding-right: 40px;
     }
-    
+
     .infos #Akira {
-        width: 127%;
+        width: 115%;
         max-width: 980px;
+        padding-left: 8px;
     }
-    
+
     .textAkira {
         color: white;
         display: flex;
@@ -456,31 +584,32 @@ font-size: 10px;
         flex-direction: column;
         text-align: center;
         width: 100%;
-        font-size: 12px;
+        font-size: 13px;
     }
-    
+
     .infos #Marcelo {
         width: 80%;
         max-width: 980px;
-        padding-right: 35px;
+        padding-right: 30px;
     }
-    
+
     .textMarcelo {
+        width: 100%;
         color: white;
         display: flex;
         align-items: center;
         flex-direction: column;
         text-align: center;
-        font-size: 12px;
-        padding-right: 40px;
+        font-size: 13px;
+        padding-right: 28px;
     }
-    
-    h3{
+
+    h3 {
         height: 5px;
     }
-    
+
     .containerLinks {}
-    
+
     #aLinkedinImgMarcelo {
         width: 85%;
         height: auto;
@@ -489,9 +618,9 @@ font-size: 10px;
 
     #linkedinImgMarcelo {
         cursor: pointer;
-        padding-right: 30px;
+        padding-right: 18px;
     }
-    
+
     #aLinkedinImgAkira {
         height: auto;
         cursor: pointer;
@@ -499,32 +628,34 @@ font-size: 10px;
 
     #linkedinImgAkira {
         cursor: pointer;
+        padding-right: 10px;
     }
-    
-    .footer{
+
+    .footer {
         display: flex;
         width: 90%;
+        justify-content: center;
     }
-    
-    .footer .linha{
+
+    .footer .linha {
         color: white;
     }
-    
-    .textFooter{
-    font-size: 13px;
+
+    .textFooter {
+        font-size: 11px;
     }
 }
 
-@media only screen and (max-width: 320px){
+@media only screen and (max-width: 320px) {
     .firstContainer {
         display: flex;
         width: 100%;
         height: 95%;
         align-items: center;
         flex-direction: column;
-    
+
     }
-    
+
     .firstContainer .backButton {
         display: flex;
         justify-content: center;
@@ -532,48 +663,51 @@ font-size: 10px;
         max-width: 980px;
         margin: auto;
     }
-    
+
     .containerInfos {
-        width: 75%;
+        width: 87%;
         height: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
         border-bottom: groove;
     }
-    
-    
+
+
     #findUs {}
-    
+
     .infos {
         display: flex;
-        width: 40%;
-        height: 75%;
+        width: 50%;
+        /* height: 74%; */
+        justify-content: center;
         align-items: center;
         flex-direction: column;
-        padding-right: 30px;
     }
-    
+
     .infos .info1 {
         display: flex;
         flex-direction: column;
         align-items: center;
         width: 112%;
+        padding-left: 31px;
     }
-    
+
     .infos .info2 {
         display: flex;
         align-items: center;
         width: 100%;
         justify-content: center;
         flex-direction: column;
+        padding-right: 40px;
     }
-    
+
     .infos #Akira {
-        width: 127%;
+        width: 115%;
         max-width: 980px;
+        padding-left: 8px;
     }
-    
+
     .textAkira {
         color: white;
         display: flex;
@@ -582,59 +716,63 @@ font-size: 10px;
         flex-direction: column;
         text-align: center;
         width: 100%;
+        font-size: 9px;
     }
-    
+
     .infos #Marcelo {
         width: 80%;
         max-width: 980px;
+        padding-right: 30px;
     }
-    
+
     .textMarcelo {
         color: white;
         display: flex;
         align-items: center;
         flex-direction: column;
         text-align: center;
+        font-size: 9px;
+        padding-right: 28px;
     }
-    
-    h3{
+
+    h3 {
         height: 5px;
     }
-    
+
     .containerLinks {}
-    
+
     #aLinkedinImgMarcelo {
         width: 85%;
-        height: 15%;
+        height: auto;
         cursor: pointer;
     }
 
     #linkedinImgMarcelo {
-        width: 36%;
-        height: 15%;
         cursor: pointer;
+        padding-right: 18px;
     }
-    
+
     #aLinkedinImgAkira {
-        width: 140%;
+        height: auto;
+        cursor: pointer;
     }
 
     #linkedinImgAkira {
-    width: 24%;
-    padding-right: 25px;
-    cursor: pointer;
+        cursor: pointer;
+        padding-right: 10px;
     }
-    
-    .footer{
+
+    .footer {
         display: flex;
         width: 90%;
+        justify-content: center;
     }
-    
-    .footer .linha{
+
+    .footer .linha {
         color: white;
     }
-    
-    .textFooter{
-    font-size: 13px;
+
+    .textFooter {
+        font-size: 11px;
     }
 }
