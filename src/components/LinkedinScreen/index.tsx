@@ -25,7 +25,7 @@ export default function LinkedinScreen() {
     <>
       <div className='firstContainer'>
         <div className='backButton'>
-          <NavLink id="findUs" to="/">FIND US</NavLink>
+          <NavLink id="findUs" to="/">BACK</NavLink>
         </div>
         <div className='containerInfos'>
           <div className='infos'>
