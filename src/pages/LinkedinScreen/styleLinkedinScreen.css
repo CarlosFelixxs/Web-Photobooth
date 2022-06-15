@@ -585,7 +585,7 @@ h3 {
         flex-direction: column;
         text-align: center;
         width: 100%;
-        font-size: 13px;
+        font-size: 11px;
     }
 
     .infos #Marcelo {
@@ -601,7 +601,7 @@ h3 {
         align-items: center;
         flex-direction: column;
         text-align: center;
-        font-size: 13px;
+        font-size: 11px;
         padding-right: 28px;
     }
 

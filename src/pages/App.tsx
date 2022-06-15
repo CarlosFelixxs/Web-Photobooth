@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import LinkedinScreen from "../components/LinkedinScreen";
-import Home from "../components/Home";
+import LinkedinScreen from "./LinkedinScreen";
+import Home from "./Home";
 
 import ReactGa from 'react-ga';
 import { useEffect } from "react";
