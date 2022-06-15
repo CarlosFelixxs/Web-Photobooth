@@ -1,12 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-<<<<<<< HEAD
 import LinkedinScreen from "./LinkedinScreen";
 import Home from "./Home";
 
-=======
-import LinkedinScreen from "../components/LinkedinScreen";
-import Home from "../components/Home";
->>>>>>> 750abe9333b740eac98059c360b9393e0b3feaff
 import ReactGa from 'react-ga';
 import { useEffect } from "react";
 
