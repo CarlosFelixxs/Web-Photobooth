@@ -11,10 +11,16 @@ import imgNext from "../../img/down1.png"
 
 //ContactUs.jsx
 import useAnalyticsEventTracker from '../../useAnalyticsEventTracker';
+import { useEffect } from "react";
 
+useEffect(() => {
+  ReactGa.pageview(window.location.pathname + window.location.search)
+}, [])
 
 function Home() {
+  
   const gaEventTracker = useAnalyticsEventTracker('Home');
+  
   return (
       <div className="App">
         <div className="container">
