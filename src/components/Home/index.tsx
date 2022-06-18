@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route, NavLink } from "react-router-dom";
-import List from '../../components/List';
-import Logo from '../../components/Logo/itemLogo';
+import List from '../List';
+import Logo from '../Logo/itemLogo';
 import imagemLogo from "../../img/logo-AI.png";
 import img from "../../img/work.png";
 import icon from "../../img/icon1.png";
@@ -13,9 +13,7 @@ import imgNext from "../../img/down1.png"
 import useAnalyticsEventTracker from '../../useAnalyticsEventTracker';
 import { useEffect } from "react";
 
-useEffect(() => {
-  ReactGa.pageview(window.location.pathname + window.location.search)
-}, [])
+
 
 function Home() {
   

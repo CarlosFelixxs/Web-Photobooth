@@ -1,11 +1,11 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import LinkedinScreen from "./LinkedinScreen";
-import Home from "./Home";
+import LinkedinScreen from "../components/LinkedinScreen";
+import Home from "../components/Home";
 
 import ReactGa from 'react-ga';
 import { useEffect } from "react";
 
-const TRACKING_ID = "G-Q42GBBZFSD"; // OUR_TRACKING_ID
+const TRACKING_ID = "G-8EP77LP8Y4"; // OUR_TRACKING_ID
 ReactGa.initialize(TRACKING_ID);
 
 function App() {

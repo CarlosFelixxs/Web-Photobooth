@@ -7,9 +7,7 @@ import ReactGa from "react-ga";
 import { useEffect } from "react";
 import useAnalyticsEventTracker from "../../useAnalyticsEventTracker";
 
-useEffect(() => {
-  ReactGa.pageview(window.location.pathname + window.location.search)
-}, [])
+
 export default function LinkedinScreen() {
   const gaEventTracker = useAnalyticsEventTracker('Linkedin');
 
