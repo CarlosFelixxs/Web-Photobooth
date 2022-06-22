@@ -5,11 +5,9 @@ import Marcelo from "../../img/Marcelo.png"
 import link from "../../img/in.png"
 import ReactGa from "react-ga";
 import { useEffect } from "react";
-import useAnalyticsEventTracker from "../../useAnalyticsEventTracker";
 
 
 export default function LinkedinScreen() {
-  const gaEventTracker = useAnalyticsEventTracker('Linkedin');
 
   return (
     <>
@@ -26,7 +24,7 @@ export default function LinkedinScreen() {
                 Head of Emerging Techs Team<br />
                 Part of LS Brasil Labs
               </span>
-              <a id='linkedinImgMarcelo' onClick={()=>gaEventTracker('Marcelo')} href="https://www.linkedin.com/in/marcelo-de-lima/"><img id='aLinkedinImgMarcelo' src={link} alt="software team" /></a>
+              <a target="_blank" id='linkedinImgMarcelo' href="https://www.linkedin.com/in/marcelo-de-lima/"><img id='aLinkedinImgMarcelo' src={link} alt="software team" /></a>
             </div>
             <div className="info2">
               <img id='Akira' src={Akira} alt="software team" />
@@ -35,7 +33,7 @@ export default function LinkedinScreen() {
                 Artificial Intelligence Lead<br />
                 Part of LS Brasil Labs
               </span>
-              <a id='linkedinImgAkira' onClick={()=>gaEventTracker('Akira')} href="https://www.linkedin.com/in/paulo-akira-enabe-732973172/"><img id='aLinkedinImgAkira' src={link} alt="software team" /></a>
+              <a target="_blank" id='linkedinImgAkira' href="https://www.linkedin.com/in/paulo-akira-enabe-732973172/"><img id='aLinkedinImgAkira' src={link} alt="software team" /></a>
             </div>
           </div>
         </div>
